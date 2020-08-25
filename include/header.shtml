@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="/include/style.css">
+<title><!--#echo var="pgtitle" --></title>
+<!--#echo var="headercrap" default="" -->
+</head>
+<body><a href="/" class="mybg" id="mybg_lower" title="Home">JustYakov</a> <span class="blank">&middot;</span>
+<a href="#" onclick="event.preventDefault();window.scrollTo(0,0)" class="mybg" id="mybg_upper" title="Go to top"><!--#echo var="box1" --></a>
+<a href="/" id="logo"></a>
+<div id="headbg"></div>
+<div id="topright"></div>
