@@ -1,0 +1,45 @@
+<!doctype html><html><head><title>Yakov's Homepage</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+function loadFlash(id, url, w, h) {
+	var elem = document.getElementById(id);
+	if(elem.innerHTML != "")
+		elem.style.display = (elem.style.display == 'none') ? 'block' : 'none';
+	else {
+		elem.innerHTML = '<object width="' + w + '" height="' + h + '"><param name="movie" value="' + url + '"></param><embed src="' + url + '" width="' + w + '" height="' + h + '"></embed></object>';
+	}
+}
+</script></head><body>
+<div class="header"><a href="/" class="homelink"><img src="logo.png" alt="JY">JustYakov</a></div>
+<h1>Yakov's Homepage</h1>
+<a href="https://github.com/wooky">GitHub</a> &middot;
+<a href="https://www.linkedin.com/in/yakov-lipkovich/">LinkedIn</a>
+
+<h2>Electrical Engineering Projects</h2>
+<ul>
+<li><a href="https://github.com/wooky/esp32-analog-video-over-wifi">Analog video streaming over Wi-Fi for ESP32</a> (WIP)
+<li><a href="https://github.com/wooky/pi-tsi">Pi-TSI</a> (WIP) &#8212; interface for a non-standard touch screen for Raspberry Pi
+<li><a href="https://github.com/wooky/picalarm">PICAlarm</a> (WIP) &#8212; create an accurate alarm clock using a cheap PIC chip
+</ul>
+
+<h2>Games</h2>
+<ul>
+<li><a href="https://github.com/wooky/xtremettt/releases/download/pro3/xtremettt.exe">Super Extreme Tic-Tac-Toe</a>
+(<a href="https://github.com/wooky/xtremettt">source code</a>) &#8212; a graphical tic-tac-toe game written in Python and Pygame. You can use your
+camera to take a photo of yourself and use it as a player avatar!
+<li><a href="/game/gaem.exe">Neon Egg Fiasco</a> &#8212; a game created for first year engineering group project. Control your character to jump
+through obstacles, avoid enemies, throw crates, and defeat bosses! Designed for all demographics, although some people were having trouble with it.
+<li><a href="/game/wts.exe">Joke game #283457574</a> &#8212; a short yet really unforgiving game. Good luck have fun.
+<li><a href="javascript:void(0)" onclick="loadFlash('flash', '/game/walkaround.swf', 550, 400)">Walkaround</a> &#8212; a small Flash game made in grade 9.
+Use your mouse to navigate through labyrinths. Don't touch the walls! <i>Requires Flash, so good luck playing this.</i>
+<div id="flash"></div>
+</ul>
+
+<h2>Misc. Stuff</h2>
+<ul>
+<li><a href="/misc/scilaws-ng/">Boyle's and Charles' Law</a> &#8212; JavaScript simulations meant to demonstrate Boyle's Law and Charles' Law.
+Designed to be simple enough that even grade 6 students should get it.
+</ul>
+
+<hr>
+<i>Last updated April 2020</i>
