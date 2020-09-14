@@ -1,45 +1,45 @@
 body {
-	font-family: Verdana, Arial;
-	margin-top: 35pt;
-	background-image: url(mainbg.png);
+    font-family: Verdana;
+    margin-top: 35pt;
+    background-image: url('/include/mainbg.png');
 }
 
 img {
-	border: 0px;
+    border: 0;
 }
 
 a {
-	text-decoration: none;
-	color: blue;
+    text-decoration: none;
+    color: blue;
 }
 
 h1 {
-	margin-bottom: 0px;
-	font-size: 3em;
-	border-bottom: 1px solid;
+    margin-bottom: 0;
+    font-size: 3rem;
+    border-bottom: 1px solid;
 }
 
 h2 {
-	font-size: 2em;
-	margin-bottom: 0px;
+    font-size: 2rem;
+    margin-bottom: 0;
 }
 
 .header {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 31pt;
-	background-color: #0080ff;
-	display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 31pt;
+    background-color: #0080ff;
+    display: inline-block;
 }
 
 .homelink {
-	font-size: 25pt;
-	color: white;
-	margin: 2pt;
+    font-size: 25pt;
+    color: white;
+    margin: 2pt;
 }
 
 a.homelink:hover {
-	background-color: blue;
+    background-color: blue;
 }
