@@ -11,7 +11,9 @@ function loadFlash(id, url, w, h) {
         elem.innerHTML = '<object width="' + w + '" height="' + h + '"><param name="movie" value="' + url + '"></param><embed src="' + url + '" width="' + w + '" height="' + h + '"></embed></object>';
     }
 }
-</script></head><body>
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+</head><body>
 <div class="header"><a href="/" class="homelink"><img src="logo.png" alt="JY">JustYakov</a></div>
 <h1>Yakov's Homepage</h1>
 <a href="https://github.com/wooky">GitHub</a> &middot;
@@ -45,3 +47,4 @@ Designed to be simple enough that even grade 6 students should get it.
 
 <hr>
 <i>Last updated {{ site.time | date_to_string: "ordinal", "US" }}</i>
+</body></html>
