@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{ include.title }}</title>
+        <link rel="stylesheet" href="/include/style.css">
+        <link rel="icon" href="/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="header">
+            <a href="/" class="homelink"><img src="/include/logo.png" alt="JY">JustYakov</a>
+            <div class="category">{{ include.category | default: "" }}</div>
+        </div>
