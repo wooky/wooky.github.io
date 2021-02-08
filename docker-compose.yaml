@@ -1,0 +1,6 @@
+services:
+  jekyll:
+    image: "jekyll/minimal:latest"
+    volumes:
+      - .:/srv/jekyll
+    command: "jekyll build"
