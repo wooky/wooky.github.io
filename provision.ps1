@@ -6,6 +6,7 @@
 $apps = @{
     Home = @(
         "7zip",
+        "googlechrome",
         "microsoft-teams",
         "office365business"
         "opera",
@@ -49,7 +50,7 @@ while (-not($apps.Contains($selection))) {
     $selection = Read-Host "Enter profile name: ($($apps.Keys))"
 }
 
-$choco = Get-Command -Name notepad.exe -ErrorAction SilentlyContinue
+$choco = Get-Command -Name choco.exe -ErrorAction SilentlyContinue
 if (-not($choco)) {
     Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
