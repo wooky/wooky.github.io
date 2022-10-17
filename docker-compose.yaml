@@ -3,4 +3,4 @@ services:
     image: "jekyll/minimal:latest"
     volumes:
       - .:/srv/jekyll
-    command: "jekyll build"
+    command: "jekyll build --watch --force-polling"
