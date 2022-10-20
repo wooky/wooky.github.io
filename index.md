@@ -19,7 +19,7 @@ title: Yakov's Homepage
 
 ## Games
 
-* [The Ace of Penguins Online](http://yakov.ca/ace-online/) ([source code](https://github.com/wooky/ace-online)) (WIP) &#8212; WASM port of the Ace of Penguins suite of games.
+* [The Ace of Penguins Online](/ace-online/) ([source code](https://github.com/wooky/ace-online)) (WIP) &#8212; WASM port of the Ace of Penguins suite of games.
 * [Super Extreme Tic-Tac-Toe](https://github.com/wooky/xtremettt/releases/download/pro3/xtremettt.exe)
 ([source code](https://github.com/wooky/xtremettt)) &#8212; a graphical tic-tac-toe game written in Python and Pygame. You can use your
 camera to take a photo of yourself and use it as a player avatar!
